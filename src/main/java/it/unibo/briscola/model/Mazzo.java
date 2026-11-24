@@ -36,7 +36,7 @@ public void mescola(){
 
 }
 /**
- * toglie dal mazzo e restituisce a carta in cima
+ * toglie dal mazzo e restituisce la carta in cima
  * 
  */
 public Carta pesca(){
