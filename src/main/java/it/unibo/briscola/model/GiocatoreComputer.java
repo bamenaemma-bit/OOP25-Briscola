@@ -7,14 +7,14 @@ package it.unibo.briscola.model;
  * della mano e del nome,
  * e implements la logica per scegliere la carta
  */
-public class GiocatoreComputer extends GiocatoreBase{
+public class GiocatoreComputer extends GiocatoreBase{// eredita tutti i metodi del padre
     /**
      * Costruisce un giocatore computer con il nome specificato
      * @param nome il nome computer ( esempio: Computer)
      * 
      */
 public  GiocatoreComputer(final String nome){
-    super(nome); //chiama il costruttore della classe padre
+    super(nome); //chiama il costruttore della classe padre 
 }
   /**
    * sceglie una carta da giocare

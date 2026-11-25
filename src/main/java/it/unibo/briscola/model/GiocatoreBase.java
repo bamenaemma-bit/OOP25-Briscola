@@ -42,6 +42,6 @@ public abstract class GiocatoreBase implements Giocatore{
  * @return la carta scelta da giocare
  */
 @Override 
-public abstract Carta scegliCarta(Seme briscola, Carta cartaAvversariCarta);
+public abstract Carta scegliCarta(final Seme briscola, final Carta cartaAvversaria);
 
 }
