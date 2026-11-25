@@ -46,4 +46,14 @@ public Carta pesca(){
     }
     return this.carte.remove(0);
 }
+
+
+    /**
+     * Verifica se il mazzo è vuoto.
+     * 
+     * @return true se non ci sono più carte, false altrimenti
+     */
+    public boolean isVuoto() {
+        return this.carte.isEmpty();
+    }
 }
