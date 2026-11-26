@@ -18,7 +18,7 @@ java {
 }
 
 application {
-    mainClass = "it.unibo.briscola.Main"
+    mainClass = "it.unibo.briscola.model.Main"
 }
 
 tasks.named<Test>("test") {
